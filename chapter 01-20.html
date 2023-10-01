@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 01-60</title>
+  <script src="chapter 01-20.js"></script>
+  <script src="chapter 20-40.js"></script>
+  <script src="chapter 40-60.js"></script>
+  <style>
+  .image img{
+        width: 250px;
+        height: 250px;
+        margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <!-- chapter 20 - 40 -->
+  <button id="rollButton">Roll the Dice</button>
+  <p id="result"></p>
+  <!-- age calculator -->
+  <b> Enter Date of Birth: <input type=date id = DOB> </b>  
+  <span id = "message" style="color:red"> </span> <br><br>    
+    
+  <!-- Choose a date and enter in input field -->  
+  <button type="submit" onclick = "ageCalculator()"> Calculate age </button> <br><br>  
+  <h3 style="color:32A80F" id="result" align="center"></h3>   
+  <!-- Chapter 46 - 48 -->
+  <button onclick="clickFun()">Click me</button>
+  <p id="para"></p>
+  <!-- hide element -->
+  <button onclick="hideFun()">Click me</button>
+  <p id="demo">Hello World</p>
+  <!-- color change -->
+  <a href="https://google.com" onmouseover="colorChange()" onmouseout="colorFun()">google</a><br><br>
+  <!-- scroll up -->
+  <div>
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nobis ea placeat, reprehenderit blanditiis ducimus architecto autem quis maiores cumque aliquam hic magni qui asperiores sequi facere. Autem, doloribus alias.
+    Dolorem error suscipit aperiam pariatur inventore quia? Illo earum libero voluptatem iusto aliquam deserunt hic ipsam et velit! Deserunt sit, natus labore a odit molestiae minus temporibus voluptates eum quaerat.
+    Odio labore est dolores magni commodi! Voluptas neque a nostrum at dolores accusantium eius odit sequi ea maiores iure, in et commodi ducimus vel laboriosam quod veniam. Architecto, animi itaque!
+    Commodi, dolorum eum! Ab minus corrupti, explicabo blanditiis esse laudantium iure quam, libero et eaque quaerat vero labore repellat. Voluptate, odio aut cum in soluta dolorem ipsam repudiandae praesentium officiis!
+    Officiis consectetur vitae doloribus culpa saepe facere doloremque ipsum architecto, enim sapiente esse modi commodi alias! Qui magni unde exercitationem perferendis sequi, provident quis! Ducimus quae ex dignissimos inventore non?
+    Beatae, itaque distinctio quisquam quas atque vitae. Ab vitae tempora dignissimos, atque, dolore necessitatibus molestiae ipsum suscipit blanditiis sapiente, molestias omnis ratione ducimus perferendis a iste. Labore aperiam quos neque!
+    Sint dolorem est libero dolor fuga possimus laboriosam eligendi nisi, aperiam voluptates soluta nihil impedit quia deserunt dicta distinctio nemo ex perferendis asperiores facere cum laudantium labore blanditiis. Rem, molestias?
+    Quae perferendis laboriosam excepturi, totam molestias fugiat ipsum libero quia voluptas nemo beatae ab esse ipsa. Quaerat earum quia excepturi laudantium in unde! Iusto saepe eum quibusdam ducimus praesentium possimus.
+    Harum sed autem sequi, fugit iste accusantium nihil, recusandae, vel quos distinctio rem ab! Sapiente perferendis quaerat dolor corporis obcaecati ea laudantium earum maxime est, quibusdam illum iste numquam aperiam?
+    Molestiae in quam delectus nulla distinctio labore eaque pariatur consequatur accusantium nesciunt ab recusandae aut tenetur vitae officiis dolores, et est laborum voluptas inventore placeat odio. Atque corrupti modi quod.
+    Quis consequuntur maxime dicta optio? Dolore officiis rem, qui cumque fuga necessitatibus corporis suscipit dignissimos numquam excepturi! Ab animi illo libero, harum ipsa, quibusdam inventore alias soluta vitae a iure?
+    Commodi molestias voluptate soluta dignissimos aliquid quas nostrum illo voluptates magni suscipit? Tempora non quae ratione numquam porro iusto delectus quasi nam sunt mollitia. Inventore sapiente error atque maiores totam.
+    Quasi a nam quisquam soluta fuga, quia placeat facilis repellat ipsa omnis odio earum aspernatur ad, assumenda autem perspiciatis iure reiciendis sequi, unde beatae. Porro ducimus repudiandae cupiditate sit illo!
+    Aspernatur voluptatem consequatur laudantium tempora incidunt sed enim voluptatibus mollitia. Sed quam dicta labore cum natus, cumque consectetur rerum quis harum dolore mollitia ut nemo facere distinctio exercitationem totam veritatis.
+    Officia quas est corrupti! Iure dicta, sit provident repellendus iste maiores blanditiis eligendi possimus architecto voluptatem illo error neque voluptatibus aliquid dolore commodi excepturi nulla accusantium quisquam. Sapiente, adipisci corrupti?
+    Non ducimus nihil dolore doloremque quo. Reprehenderit quo est eum. Tenetur voluptatum architecto voluptas ut officiis totam soluta quam aliquid perferendis eligendi, fugit vitae eos dicta inventore ad illo asperiores.
+    Doloremque voluptas, eos fugiat distinctio suscipit velit beatae quasi, optio possimus laboriosam accusamus magnam voluptates consequatur minima veritatis eveniet amet sapiente nemo omnis vitae, nisi nulla. Quia officiis accusantium dolor?
+    In repellendus necessitatibus voluptatibus numquam expedita quod, molestias quae quaerat commodi reiciendis nulla nisi optio! Voluptas quasi vitae id vel, mollitia enim et, iste eaque, reiciendis quod qui odit? Quisquam.
+    Voluptates eum ipsum, qui sit inventore dolores, nesciunt cupiditate odit vero asperiores, consequuntur enim? Possimus repudiandae laborum neque tempore saepe laudantium, vel, dicta modi vitae iste corporis, labore nulla omnis.
+    Illo commodi reprehenderit numquam voluptates perferendis officia tempore cum atque. Quae odio reiciendis voluptates nobis adipisci, eligendi assumenda expedita architecto sunt alias suscipit corporis incidunt unde dolore illo maxime sit!
+    Esse modi tempora adipisci, porro quasi doloribus dolore, nesciunt odit nam accusantium cum exercitationem, eum aspernatur iure! Aut quidem provident amet totam consequuntur pariatur, laboriosam, maiores dolores laborum commodi nesciunt!
+    Pariatur similique in consequuntur, atque porro quasi. Hic et consectetur tempore labore sapiente fugiat at minima assumenda ducimus? Natus nostrum aperiam quae enim molestiae quis amet doloremque velit omnis ipsam.
+    Eaque amet asperiores officia suscipit, cum itaque quaerat rerum quo at voluptas placeat. Minima minus necessitatibus tempore praesentium provident veniam voluptatum unde sequi libero illum ad, fugit modi rerum dolorum.
+    Repellat esse, veniam dicta fugiat sit amet nulla, ex minima id repellendus facilis. Error obcaecati vel, repellat cupiditate explicabo, repudiandae necessitatibus recusandae nobis nesciunt facilis illo expedita architecto, numquam minima!
+    Cum fugit doloribus non dolor? Quasi optio iste omnis deserunt, eum est soluta reiciendis praesentium cumque odio id quibusdam corporis sunt architecto numquam voluptatibus amet quidem explicabo eligendi tempora laboriosam.</p> -->
+    <button onclick="topFunction()" id="scrollToTop">Click Me</button><br><br>
+  </div>
+  <!-- play audio -->
+  <button onclick="playSound()">Play Sound</button>
+  <audio id="audio" src="audio.mp3"></audio><br><br>
+  <!-- new tab -->
+  <button onclick="newTab()">New Window</button><br><br>
+  <!-- alert message when button clicked -->
+  <button id="btn" onclick="buttonFun()">Click Me</button><br><br>
+  <!-- change color when user hovers it -->
+  <button id="button" onmouseover="changeColor()">Read More</button><br><br>
+  <!-- play sound when button clicked -->
+  <button id="sound" onclick="playSound()">Play Music</button><br><br>
+  <!-- create event when the user move the mouse over an element -->
+  <!-- <div id="myElement" onmouseover="mouseOver()">Move the mouse over me</div> -->
+  <!-- create event that hides an element when the user move the mouse out of it -->
+  <div id="mouseElement" onmouseover="mouseOut()">Move the mouse over me</div>
+  <!-- open and close tab -->
+  <button onclick="openWin()">Open Window</button>
+  <button onclick="closeWin()">Close Window"</button><br><br>
+
+  <!-- checkbox -->
+  Checkbox: <input type="checkbox" id="myCheck" value="myvalue">
+  <button onclick="checkFun()">Try it</button>
+  <!-- id -->
+  <h3>Hello Programming</h3>
+  <!-- empty field -->
+  <form> 
+    <input id="test" type="text" />
+ </form>
+ <!-- Marital Status -->
+ <label for="maritalStatus">Are you married?</label>
+<input type="checkbox" id="maritalStatus">
+<button id="setStatusButton">Set Status</button>
+
+  <!-- bold text -->
+  <p id="text" onclick="textFun()">Lorem ipsum dolor amit</p>
+  <!-- disapper image and show text -->
+  <img id="image" src="flower.avif" style="width: 300px; height: 300px; object-fit: cover;" onmouseover="disappearFun()">
+  <p onmouseout="showText()" id="para-text">Flower Image </p>
+  <!-- heading -->
+  <h2 id="heading" onmouseover="changeBg()">Jawan Pakistan</h2>
+  <!-- underline -->
+  <p id="underline" onmouseover="paraFun()">This is a paragraph text</p>
+  <!-- swap images -->
+  <img src="images/image-1.jpg" id="myImage" width="200" height="150"><br><br>
+  <input type="button" onclick="changeImage()" value="Change Image" />
+
+  
+</body>
+</html>
